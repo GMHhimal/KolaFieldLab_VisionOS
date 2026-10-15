@@ -1,0 +1,284 @@
+[
+  {
+    "id": "tomato.early_blight",
+    "name": "Early blight",
+    "pathogen": "Alternaria solani",
+    "kind": "Fungal",
+    "summary": "Target-like brown lesions that climb the plant from the oldest leaves upward during warm, humid spells.",
+    "stages": [
+      "Small dark specks appear on the lowest, oldest leaves.",
+      "Specks grow into brown lesions with concentric 'target' rings and yellow halos.",
+      "Lesions merge; lower leaves yellow and drop, exposing fruit to sunscald.",
+      "Severe defoliation moves up the plant; yield and fruit quality fall sharply."
+    ],
+    "controls": [
+      "Remove infected lower leaves",
+      "Mulch to stop soil splash",
+      "Protectant fungicide per DOA advice",
+      "Rotate crops for 2 seasons"
+    ],
+    "visual": {
+      "pattern": "spots",
+      "chlorosisColor": [
+        0.78,
+        0.7,
+        0.22
+      ],
+      "lesionColor": [
+        0.33,
+        0.2,
+        0.09
+      ],
+      "haloColor": [
+        0.85,
+        0.78,
+        0.25
+      ],
+      "maxLesions": 7,
+      "lesionSize": 0.011
+    },
+    "spread": {
+      "minTemp": 18,
+      "maxTemp": 30,
+      "minHumidity": 90,
+      "maxHumidity": null,
+      "transmission": 0.22,
+      "incubationDays": 3,
+      "growthPerDay": 0.06,
+      "radius": 1
+    }
+  },
+  {
+    "id": "tomato.late_blight",
+    "name": "Late blight",
+    "pathogen": "Phytophthora infestans",
+    "kind": "Water mould",
+    "summary": "An explosive water-mould epidemic of cool, wet weather that can destroy a field within a week.",
+    "stages": [
+      "Pale, water-soaked patches appear on leaf edges after a cool, wet night.",
+      "Patches turn dark brown and spread rapidly; white mould forms underneath.",
+      "Stems blacken and whole branches collapse.",
+      "The plant is destroyed; fruit develop greasy brown rot."
+    ],
+    "controls": [
+      "Remove and bag infected plants immediately",
+      "Preventive fungicide when risk is high",
+      "Avoid evening irrigation",
+      "Destroy volunteer plants"
+    ],
+    "visual": {
+      "pattern": "blotches",
+      "chlorosisColor": [
+        0.42,
+        0.4,
+        0.2
+      ],
+      "lesionColor": [
+        0.2,
+        0.16,
+        0.1
+      ],
+      "haloColor": null,
+      "maxLesions": 3,
+      "lesionSize": 0.024
+    },
+    "spread": {
+      "minTemp": 10,
+      "maxTemp": 25,
+      "minHumidity": 90,
+      "maxHumidity": null,
+      "transmission": 0.38,
+      "incubationDays": 2,
+      "growthPerDay": 0.16,
+      "radius": 2
+    }
+  },
+  {
+    "id": "tomato.septoria_leaf_spot",
+    "name": "Septoria leaf spot",
+    "pathogen": "Septoria lycopersici",
+    "kind": "Fungal",
+    "summary": "Dozens of small grey-centred spots that strip leaves from the bottom of the plant.",
+    "stages": [
+      "Tiny water-soaked dots on lower leaves after rain.",
+      "Many small round spots with grey centres and dark borders.",
+      "Spots cover leaves, which yellow and fall.",
+      "Plant loses most foliage; fruit ripen poorly."
+    ],
+    "controls": [
+      "Remove spotted leaves",
+      "Mulch the soil",
+      "Avoid working among wet plants",
+      "Rotate crops"
+    ],
+    "visual": {
+      "pattern": "spots",
+      "chlorosisColor": [
+        0.72,
+        0.68,
+        0.25
+      ],
+      "lesionColor": [
+        0.45,
+        0.42,
+        0.38
+      ],
+      "haloColor": [
+        0.25,
+        0.18,
+        0.1
+      ],
+      "maxLesions": 14,
+      "lesionSize": 0.006
+    },
+    "spread": {
+      "minTemp": 16,
+      "maxTemp": 28,
+      "minHumidity": 90,
+      "maxHumidity": null,
+      "transmission": 0.25,
+      "incubationDays": 4,
+      "growthPerDay": 0.05,
+      "radius": 1
+    }
+  },
+  {
+    "id": "tomato.bacterial_spot",
+    "name": "Bacterial spot",
+    "pathogen": "Xanthomonas spp.",
+    "kind": "Bacterial",
+    "summary": "Greasy black spots spread by rain splash, tools and hands; scars fruit and lowers market value.",
+    "stages": [
+      "Small, dark, greasy-looking spots on young leaves.",
+      "Spots gain yellow halos and merge along leaf edges.",
+      "Leaves look scorched; scabby spots form on fruit.",
+      "Heavy leaf drop; fruit unmarketable."
+    ],
+    "controls": [
+      "Remove infected debris",
+      "Disinfect tools",
+      "Copper spray per label",
+      "Use clean seed"
+    ],
+    "visual": {
+      "pattern": "spots",
+      "chlorosisColor": [
+        0.7,
+        0.62,
+        0.18
+      ],
+      "lesionColor": [
+        0.08,
+        0.07,
+        0.05
+      ],
+      "haloColor": [
+        0.8,
+        0.74,
+        0.2
+      ],
+      "maxLesions": 10,
+      "lesionSize": 0.007
+    },
+    "spread": {
+      "minTemp": 22,
+      "maxTemp": 32,
+      "minHumidity": 85,
+      "maxHumidity": null,
+      "transmission": 0.28,
+      "incubationDays": 3,
+      "growthPerDay": 0.05,
+      "radius": 1
+    }
+  },
+  {
+    "id": "tomato.yellow_leaf_curl",
+    "name": "Yellow leaf curl virus",
+    "pathogen": "TYLCV (whitefly-transmitted)",
+    "kind": "Viral",
+    "summary": "A virus carried by whiteflies across the field; infected plants stunt and stop fruiting.",
+    "stages": [
+      "Young leaves begin to cup upward.",
+      "Leaf margins turn yellow; new growth is small and crumpled.",
+      "Plant becomes bushy and stunted; flowers drop.",
+      "Little or no fruit; plant should be removed."
+    ],
+    "controls": [
+      "Remove infected plants early",
+      "Yellow sticky traps",
+      "Insect-proof seedling nursery",
+      "Tolerant varieties"
+    ],
+    "visual": {
+      "pattern": "curl",
+      "chlorosisColor": [
+        0.8,
+        0.78,
+        0.22
+      ],
+      "lesionColor": [
+        0.6,
+        0.58,
+        0.15
+      ],
+      "haloColor": null,
+      "maxLesions": 0,
+      "lesionSize": 0.0
+    },
+    "spread": {
+      "minTemp": 24,
+      "maxTemp": 36,
+      "minHumidity": null,
+      "maxHumidity": 70,
+      "transmission": 0.2,
+      "incubationDays": 5,
+      "growthPerDay": 0.07,
+      "radius": 2
+    }
+  },
+  {
+    "id": "tomato.mosaic_virus",
+    "name": "Mosaic virus",
+    "pathogen": "Tomato mosaic virus (ToMV)",
+    "kind": "Viral",
+    "summary": "A highly stable virus spread on hands and tools during pruning; mottles leaves and weakens plants.",
+    "stages": [
+      "Faint light-green mottling on young leaves.",
+      "Clear light/dark mosaic pattern; leaves slightly distorted.",
+      "Fern-like, narrow leaves; reduced vigour.",
+      "Uneven ripening and internal browning of fruit."
+    ],
+    "controls": [
+      "Wash hands and disinfect tools",
+      "Remove infected plants",
+      "Resistant varieties",
+      "Certified seed"
+    ],
+    "visual": {
+      "pattern": "mosaic",
+      "chlorosisColor": [
+        0.55,
+        0.75,
+        0.3
+      ],
+      "lesionColor": [
+        0.1,
+        0.35,
+        0.12
+      ],
+      "haloColor": null,
+      "maxLesions": 0,
+      "lesionSize": 0.0
+    },
+    "spread": {
+      "minTemp": 15,
+      "maxTemp": 35,
+      "minHumidity": null,
+      "maxHumidity": null,
+      "transmission": 0.16,
+      "incubationDays": 6,
+      "growthPerDay": 0.03,
+      "radius": 1
+    }
+  }
+]

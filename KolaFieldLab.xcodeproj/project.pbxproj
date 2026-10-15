@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2AABBBA3F90273C525899BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B91EBE1DE75F746861C514 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498703763F1E4247A31D9CE4;
+			remoteInfo = KolaFieldLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BAD51EC06F920095972F8D9 /* KolaFieldLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KolaFieldLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D2CF640F6E7011CC80A3BA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		80A8BDC6D8AE06E6497CDC6C /* KolaFieldLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KolaFieldLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44A5D8919037871E52CE402 /* Config/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		41264B0BFDC409EBBC7A780B /* KolaFieldLabTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KolaFieldLabTests;
+			sourceTree = "<group>";
+		};
+		5E385E72CC7C00B5A401D629 /* KolaFieldLab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KolaFieldLab;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		129B9F60AB6E6C41DB6F6A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B716A82031E4D927D54081E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069B78E0AE7045B1C1BE4F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BAD51EC06F920095972F8D9 /* KolaFieldLab.app */,
+				80A8BDC6D8AE06E6497CDC6C /* KolaFieldLabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ADD877707BD040C256E242F = {
+			isa = PBXGroup;
+			children = (
+				5E385E72CC7C00B5A401D629 /* KolaFieldLab */,
+				41264B0BFDC409EBBC7A780B /* KolaFieldLabTests */,
+				30D2CF640F6E7011CC80A3BA /* README.md */,
+				A44A5D8919037871E52CE402 /* Config/Info.plist */,
+				069B78E0AE7045B1C1BE4F70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		498703763F1E4247A31D9CE4 /* KolaFieldLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9532C4EA1712A2698FC58A4 /* Build configuration list for PBXNativeTarget "KolaFieldLab" */;
+			buildPhases = (
+				DF6E818356F114254FC85035 /* Sources */,
+				B716A82031E4D927D54081E7 /* Frameworks */,
+				477CB6132791E3F6C1723A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5E385E72CC7C00B5A401D629 /* KolaFieldLab */,
+			);
+			name = KolaFieldLab;
+			packageProductDependencies = (
+			);
+			productName = KolaFieldLab;
+			productReference = 0BAD51EC06F920095972F8D9 /* KolaFieldLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA26271CA0864751EE85A8A7 /* KolaFieldLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863441B62F610D9C1DADFE62 /* Build configuration list for PBXNativeTarget "KolaFieldLabTests" */;
+			buildPhases = (
+				1DD3CD4177347E67C7786170 /* Sources */,
+				129B9F60AB6E6C41DB6F6A7A /* Frameworks */,
+				5A6290EDFF974A38C1D7BCFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CFC0A1B0258C4C841A8A267 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				41264B0BFDC409EBBC7A780B /* KolaFieldLabTests */,
+			);
+			name = KolaFieldLabTests;
+			packageProductDependencies = (
+			);
+			productName = KolaFieldLabTests;
+			productReference = 80A8BDC6D8AE06E6497CDC6C /* KolaFieldLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B91EBE1DE75F746861C514 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					498703763F1E4247A31D9CE4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DA26271CA0864751EE85A8A7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 498703763F1E4247A31D9CE4;
+					};
+				};
+			};
+			buildConfigurationList = B48EC4C0DBA33B84D8E87935 /* Build configuration list for PBXProject "KolaFieldLab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ADD877707BD040C256E242F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 069B78E0AE7045B1C1BE4F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498703763F1E4247A31D9CE4 /* KolaFieldLab */,
+				DA26271CA0864751EE85A8A7 /* KolaFieldLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		477CB6132791E3F6C1723A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6290EDFF974A38C1D7BCFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD3CD4177347E67C7786170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6E818356F114254FC85035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CFC0A1B0258C4C841A8A267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498703763F1E4247A31D9CE4 /* KolaFieldLab */;
+			targetProxy = 2AABBBA3F90273C525899BB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44A70A94A0D9B288EC3483EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "KolaCare Field Lab";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "1.0";
+				PRODUCT_BUNDLE_IDENTIFIER = lk.sliit.it23152632.KolaFieldLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "7";
+				XROS_DEPLOYMENT_TARGET = "2.0";
+			};
+			name = Release;
+		};
+		6B9F86509964DB6264F24D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "KolaCare Field Lab";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "1.0";
+				PRODUCT_BUNDLE_IDENTIFIER = lk.sliit.it23152632.KolaFieldLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "7";
+				XROS_DEPLOYMENT_TARGET = "2.0";
+			};
+			name = Debug;
+		};
+		81436CBF98EF24441020105A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "7";
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = "2.0";
+			};
+			name = Release;
+		};
+		9CFF5C23D6FFEE423D9FC156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = "0";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "7";
+				XROS_DEPLOYMENT_TARGET = "2.0";
+			};
+			name = Debug;
+		};
+		AD6045E21B3DC61E7AB66E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = "1.0";
+				PRODUCT_BUNDLE_IDENTIFIER = lk.sliit.it23152632.KolaFieldLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KolaFieldLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KolaFieldLab";
+				XROS_DEPLOYMENT_TARGET = "2.0";
+			};
+			name = Release;
+		};
+		F27F5177EAFB54BF52E398B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = "1.0";
+				PRODUCT_BUNDLE_IDENTIFIER = lk.sliit.it23152632.KolaFieldLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KolaFieldLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KolaFieldLab";
+				XROS_DEPLOYMENT_TARGET = "2.0";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		863441B62F610D9C1DADFE62 /* Build configuration list for PBXNativeTarget "KolaFieldLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27F5177EAFB54BF52E398B3 /* Debug */,
+				AD6045E21B3DC61E7AB66E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9532C4EA1712A2698FC58A4 /* Build configuration list for PBXNativeTarget "KolaFieldLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9F86509964DB6264F24D3A /* Debug */,
+				44A70A94A0D9B288EC3483EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48EC4C0DBA33B84D8E87935 /* Build configuration list for PBXProject "KolaFieldLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFF5C23D6FFEE423D9FC156 /* Debug */,
+				81436CBF98EF24441020105A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B91EBE1DE75F746861C514 /* Project object */;
+}
